@@ -1,3 +1,5 @@
+#include <dc/pvr.h>
+#include <kos.h>
 #include "display.h"
 int currentBuffer;
 uint16_t* framebuffer_1;

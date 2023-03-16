@@ -30,7 +30,9 @@ NOW 35 frames per second on hardware only at some angles
 #define STB_IMAGE_IMPLEMENTATION
 #define STBI_ONLY_TGA
 #include "stb_image.h"
-
+#include <dc/pvr.h>
+#include <kos.h>
+#include "display.h"
 //TODO list
 //Implement delta time
 
